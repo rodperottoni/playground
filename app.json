@@ -1,15 +1,16 @@
 {
   "expo": {
-    "name": "rudys-kitchen",
-    "slug": "rudys-kitchen",
+    "name": "playground",
+    "slug": "playground",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
-    "scheme": "rudyskitchen",
+    "scheme": "rudys-playground",
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.rdperottoni.playground"
     },
     "android": {
       "adaptiveIcon": {
