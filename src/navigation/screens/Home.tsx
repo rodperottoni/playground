@@ -1,4 +1,4 @@
-import { Button, Text } from "@react-navigation/elements";
+import { Text } from "@react-navigation/elements";
 import { useNavigation } from "@react-navigation/native";
 import { FlatList, StyleSheet, TouchableOpacity, View } from "react-native";
 

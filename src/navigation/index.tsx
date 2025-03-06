@@ -1,5 +1,4 @@
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
-import { HeaderButton, Text } from "@react-navigation/elements";
 import {
   createStaticNavigation,
   StaticParamList,
@@ -7,10 +6,7 @@ import {
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import { MaterialIcons } from "@expo/vector-icons";
 import { Home } from "./screens/Home";
-import { Profile } from "./screens/Profile";
-import { Settings } from "./screens/Settings";
 import { Updates } from "./screens/Updates";
-import { NotFound } from "./screens/NotFound";
 import { Tamagui } from "./screens/sandboxes/Tamagui";
 import { ReactForm } from "./screens/sandboxes/ReactForm";
 import { Valtio } from "./screens/sandboxes/Valtio";
