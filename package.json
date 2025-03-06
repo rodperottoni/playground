@@ -6,10 +6,12 @@
     "start": "expo start --dev-client",
     "web": "expo start --web",
     "android": "expo run:android",
-    "ios": "expo run:ios"
+    "ios": "expo run:ios",
+    "lint": "eslint --ext .js,.jsx,.ts,.tsx ."
   },
   "dependencies": {
     "@expo/metro-runtime": "~4.0.0",
+    "@expo/vector-icons": "^14.0.4",
     "@react-navigation/bottom-tabs": "^7.1.1",
     "@react-navigation/elements": "^2.2.3",
     "@react-navigation/native": "^7.0.12",
@@ -34,6 +36,12 @@
   "devDependencies": {
     "@babel/core": "^7.20.0",
     "@types/react": "~18.3.12",
+    "@typescript-eslint/eslint-plugin": "^8.26.0",
+    "@typescript-eslint/parser": "^8.26.0",
+    "eslint": "^9.21.0",
+    "eslint-plugin-react": "^7.37.4",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "eslint-plugin-react-native": "^5.0.0",
     "typescript": "^5.7.2"
   },
   "private": true,
