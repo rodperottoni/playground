@@ -1,9 +1,10 @@
-import { Stack } from "expo-router/stack";
+import { Stack } from "expo-router";
 
-export default function Layout() {
+export default function VeggieLayout() {
   return (
-    <Stack>
-      <Stack.Screen name="[id]" options={{ presentation: "modal" }} />
+    <Stack screenOptions={{ headerShown: true }}>
+      <Stack.Screen name="index" options={{ title: "Veggies" }} />
+      <Stack.Screen name="[id]" options={{ headerShown: false }} />
     </Stack>
   );
 }
