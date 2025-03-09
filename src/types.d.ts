@@ -1,9 +1,15 @@
-declare module '*.png' {
-  const value: import('react-native').ImageSourcePropType;
+declare module "*.png" {
+  const value: import("react-native").ImageSourcePropType;
   export default value;
 }
 
-declare module '*.jpg' {
-  const value: import('react-native').ImageSourcePropType;
+declare module "*.jpg" {
+  const value: import("react-native").ImageSourcePropType;
   export default value;
+}
+
+namespace NodeJS {
+  interface ProcessEnv {
+    EXPO_PUBLIC_OAUTH_CLIENT_ID: string;
+  }
 }
